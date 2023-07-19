@@ -12,7 +12,7 @@ const Welcome = () => {
     <div id="welcome">
     <h2>Seja bem-vindo</h2>
     <p>Clique no botão abaixo para começar:</p>
-          <button onClick = {() => dispatch({type: "CHANGE_STATE"})} className="button-pushable" role="button">
+          <button onClick={() => dispatch({ type: "CHANGE_STAGE" })} className="button-pushable" role="button">
               <span className="button-shadow"></span>
               <span className="button-edge"></span>
               <span className="button-front text">
